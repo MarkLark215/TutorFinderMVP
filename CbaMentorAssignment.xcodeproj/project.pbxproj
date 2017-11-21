@@ -1,0 +1,452 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D147D1E1ED3F6EB00CC7A08 /* TutorTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D147D1D1ED3F6EB00CC7A08 /* TutorTableCell.m */; };
+		4D147D2C1ED420E600CC7A08 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D147D281ED420C100CC7A08 /* MapKit.framework */; };
+		4D147D2D1ED420F100CC7A08 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D147D2A1ED420C900CC7A08 /* CoreLocation.framework */; };
+		4D147D301ED424CC00CC7A08 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D147D2F1ED424CC00CC7A08 /* MapViewController.m */; };
+		4D147D321ED4630100CC7A08 /* TutorPin.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D147D311ED4630100CC7A08 /* TutorPin.m */; };
+		4D147D351ED5D67600CC7A08 /* Manager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D147D341ED5D67600CC7A08 /* Manager.m */; };
+		4D147D3B1ED6728A00CC7A08 /* Service.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D147D3A1ED6728A00CC7A08 /* Service.m */; };
+		4DB6C8A01ED68F550066906B /* Tutors-10km-Maths.json in Resources */ = {isa = PBXBuildFile; fileRef = 4DB6C89F1ED68F550066906B /* Tutors-10km-Maths.json */; };
+		4DCC53961EC4A06C0024C049 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCC53951EC4A06C0024C049 /* main.m */; };
+		4DCC53991EC4A06C0024C049 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCC53981EC4A06C0024C049 /* AppDelegate.m */; };
+		4DCC539F1EC4A06C0024C049 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DCC539D1EC4A06C0024C049 /* Main.storyboard */; };
+		4DCC53A11EC4A06D0024C049 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DCC53A01EC4A06D0024C049 /* Assets.xcassets */; };
+		4DCC53A41EC4A06D0024C049 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DCC53A21EC4A06D0024C049 /* LaunchScreen.storyboard */; };
+		4DCCC5781ECB4B37000E510B /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCCC5771ECB4B37000E510B /* SearchViewController.m */; };
+		4DCCC57C1ECCA8A7000E510B /* TutorListingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCCC57B1ECCA8A7000E510B /* TutorListingViewController.m */; };
+		4DCCC57E1ECCAB82000E510B /* Tutor.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCCC57D1ECCAB82000E510B /* Tutor.m */; };
+		4DE4A75A1ECEFCD9001AEB30 /* TutorDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE4A7591ECEFCD9001AEB30 /* TutorDetailViewController.m */; };
+		4DF132311EEE488E00ABF4B7 /* Tutors-1km-Maths.json in Resources */ = {isa = PBXBuildFile; fileRef = 4DF132301EEE488E00ABF4B7 /* Tutors-1km-Maths.json */; };
+		4DF132331EEE4A2100ABF4B7 /* Tutors-5km-Maths.json in Resources */ = {isa = PBXBuildFile; fileRef = 4DF132321EEE4A2100ABF4B7 /* Tutors-5km-Maths.json */; };
+		4DF132371EEE5A3400ABF4B7 /* Tutors-25km-Maths.json in Resources */ = {isa = PBXBuildFile; fileRef = 4DF132361EEE5A3400ABF4B7 /* Tutors-25km-Maths.json */; };
+		4DF132391EEEADAB00ABF4B7 /* Tutors-10km-Piano.json in Resources */ = {isa = PBXBuildFile; fileRef = 4DF132381EEEADAB00ABF4B7 /* Tutors-10km-Piano.json */; };
+		4DFD1B811EE839AB00EF2B65 /* CustomButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DFD1B801EE839AB00EF2B65 /* CustomButton.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4D147D1C1ED3F6EB00CC7A08 /* TutorTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TutorTableCell.h; path = CbaMentorAssignment/TutorTableCell.h; sourceTree = "<group>"; };
+		4D147D1D1ED3F6EB00CC7A08 /* TutorTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TutorTableCell.m; path = CbaMentorAssignment/TutorTableCell.m; sourceTree = "<group>"; };
+		4D147D281ED420C100CC7A08 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		4D147D2A1ED420C900CC7A08 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		4D147D2E1ED424CC00CC7A08 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MapViewController.h; path = CbaMentorAssignment/MapViewController.h; sourceTree = "<group>"; };
+		4D147D2F1ED424CC00CC7A08 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MapViewController.m; path = CbaMentorAssignment/MapViewController.m; sourceTree = "<group>"; };
+		4D147D311ED4630100CC7A08 /* TutorPin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TutorPin.m; path = CbaMentorAssignment/TutorPin.m; sourceTree = "<group>"; };
+		4D147D331ED4631800CC7A08 /* TutorPin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TutorPin.h; path = CbaMentorAssignment/TutorPin.h; sourceTree = "<group>"; };
+		4D147D341ED5D67600CC7A08 /* Manager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Manager.m; sourceTree = "<group>"; };
+		4D147D371ED5D6A800CC7A08 /* Manager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Manager.h; sourceTree = "<group>"; };
+		4D147D3A1ED6728A00CC7A08 /* Service.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Service.m; sourceTree = "<group>"; };
+		4D147D3C1ED6729A00CC7A08 /* Service.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Service.h; sourceTree = "<group>"; };
+		4DB6C89F1ED68F550066906B /* Tutors-10km-Maths.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Tutors-10km-Maths.json"; sourceTree = "<group>"; };
+		4DCC53911EC4A06C0024C049 /* CbaMentorAssignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CbaMentorAssignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DCC53951EC4A06C0024C049 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4DCC53971EC4A06C0024C049 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4DCC53981EC4A06C0024C049 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4DCC539E1EC4A06C0024C049 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4DCC53A01EC4A06D0024C049 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4DCC53A31EC4A06D0024C049 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4DCC53A51EC4A06D0024C049 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DCCC5761ECB4B37000E510B /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SearchViewController.h; path = CbaMentorAssignment/SearchViewController.h; sourceTree = "<group>"; };
+		4DCCC5771ECB4B37000E510B /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SearchViewController.m; path = CbaMentorAssignment/SearchViewController.m; sourceTree = "<group>"; };
+		4DCCC57A1ECCA8A7000E510B /* TutorListingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TutorListingViewController.h; path = CbaMentorAssignment/TutorListingViewController.h; sourceTree = "<group>"; };
+		4DCCC57B1ECCA8A7000E510B /* TutorListingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TutorListingViewController.m; path = CbaMentorAssignment/TutorListingViewController.m; sourceTree = "<group>"; };
+		4DCCC57D1ECCAB82000E510B /* Tutor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tutor.m; sourceTree = "<group>"; };
+		4DCCC57F1ECCAB8F000E510B /* Tutor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Tutor.h; sourceTree = "<group>"; };
+		4DE4A7581ECEFCD9001AEB30 /* TutorDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TutorDetailViewController.h; path = CbaMentorAssignment/TutorDetailViewController.h; sourceTree = "<group>"; };
+		4DE4A7591ECEFCD9001AEB30 /* TutorDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TutorDetailViewController.m; path = CbaMentorAssignment/TutorDetailViewController.m; sourceTree = "<group>"; };
+		4DF132301EEE488E00ABF4B7 /* Tutors-1km-Maths.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Tutors-1km-Maths.json"; sourceTree = "<group>"; };
+		4DF132321EEE4A2100ABF4B7 /* Tutors-5km-Maths.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Tutors-5km-Maths.json"; sourceTree = "<group>"; };
+		4DF132361EEE5A3400ABF4B7 /* Tutors-25km-Maths.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Tutors-25km-Maths.json"; sourceTree = "<group>"; };
+		4DF132381EEEADAB00ABF4B7 /* Tutors-10km-Piano.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Tutors-10km-Piano.json"; sourceTree = "<group>"; };
+		4DFD1B7F1EE839AB00EF2B65 /* CustomButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CustomButton.h; path = CbaMentorAssignment/CustomButton.h; sourceTree = "<group>"; };
+		4DFD1B801EE839AB00EF2B65 /* CustomButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CustomButton.m; path = CbaMentorAssignment/CustomButton.m; sourceTree = "<group>"; };
+		D38E9D681ECA988300F93C48 /* Readme.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Readme.h; path = CbaMentorAssignment/Readme.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4DCC538E1EC4A06C0024C049 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D147D2D1ED420F100CC7A08 /* CoreLocation.framework in Frameworks */,
+				4D147D2C1ED420E600CC7A08 /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4D147D271ED420C100CC7A08 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4D147D2A1ED420C900CC7A08 /* CoreLocation.framework */,
+				4D147D281ED420C100CC7A08 /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4D147D361ED5D68700CC7A08 /* ServiceAccess */ = {
+			isa = PBXGroup;
+			children = (
+				4D147D341ED5D67600CC7A08 /* Manager.m */,
+				4D147D371ED5D6A800CC7A08 /* Manager.h */,
+				4D147D3A1ED6728A00CC7A08 /* Service.m */,
+				4D147D3C1ED6729A00CC7A08 /* Service.h */,
+			);
+			name = ServiceAccess;
+			sourceTree = "<group>";
+		};
+		4D147D381ED66B3600CC7A08 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4D147D2F1ED424CC00CC7A08 /* MapViewController.m */,
+				4D147D2E1ED424CC00CC7A08 /* MapViewController.h */,
+				4DE4A7591ECEFCD9001AEB30 /* TutorDetailViewController.m */,
+				4DE4A7581ECEFCD9001AEB30 /* TutorDetailViewController.h */,
+				4DCCC57A1ECCA8A7000E510B /* TutorListingViewController.h */,
+				4DCCC57B1ECCA8A7000E510B /* TutorListingViewController.m */,
+				4DCCC5771ECB4B37000E510B /* SearchViewController.m */,
+				4DCCC5761ECB4B37000E510B /* SearchViewController.h */,
+			);
+			name = Controller;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		4D147D391ED66B8400CC7A08 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4D147D331ED4631800CC7A08 /* TutorPin.h */,
+				4D147D311ED4630100CC7A08 /* TutorPin.m */,
+				4DFD1B7F1EE839AB00EF2B65 /* CustomButton.h */,
+				4DFD1B801EE839AB00EF2B65 /* CustomButton.m */,
+				4D147D1D1ED3F6EB00CC7A08 /* TutorTableCell.m */,
+				4D147D1C1ED3F6EB00CC7A08 /* TutorTableCell.h */,
+			);
+			name = View;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		4DCC53881EC4A06C0024C049 = {
+			isa = PBXGroup;
+			children = (
+				D38E9D681ECA988300F93C48 /* Readme.h */,
+				4DCC53931EC4A06C0024C049 /* CbaMentorAssignment */,
+				4DCC53921EC4A06C0024C049 /* Products */,
+				4D147D271ED420C100CC7A08 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4DCC53921EC4A06C0024C049 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4DCC53911EC4A06C0024C049 /* CbaMentorAssignment.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4DCC53931EC4A06C0024C049 /* CbaMentorAssignment */ = {
+			isa = PBXGroup;
+			children = (
+				4D147D381ED66B3600CC7A08 /* Controller */,
+				4D147D391ED66B8400CC7A08 /* View */,
+				4DCCC5791ECCA25D000E510B /* Model */,
+				4D147D361ED5D68700CC7A08 /* ServiceAccess */,
+				4DCC53971EC4A06C0024C049 /* AppDelegate.h */,
+				4DCC53981EC4A06C0024C049 /* AppDelegate.m */,
+				4DCC539D1EC4A06C0024C049 /* Main.storyboard */,
+				4DCC53A01EC4A06D0024C049 /* Assets.xcassets */,
+				4DCC53A21EC4A06D0024C049 /* LaunchScreen.storyboard */,
+				4DCC53A51EC4A06D0024C049 /* Info.plist */,
+				4DCC53941EC4A06C0024C049 /* Supporting Files */,
+			);
+			path = CbaMentorAssignment;
+			sourceTree = "<group>";
+		};
+		4DCC53941EC4A06C0024C049 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4DF132301EEE488E00ABF4B7 /* Tutors-1km-Maths.json */,
+				4DF132321EEE4A2100ABF4B7 /* Tutors-5km-Maths.json */,
+				4DB6C89F1ED68F550066906B /* Tutors-10km-Maths.json */,
+				4DF132361EEE5A3400ABF4B7 /* Tutors-25km-Maths.json */,
+				4DF132381EEEADAB00ABF4B7 /* Tutors-10km-Piano.json */,
+				4DCC53951EC4A06C0024C049 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4DCCC5791ECCA25D000E510B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4DCCC57D1ECCAB82000E510B /* Tutor.m */,
+				4DCCC57F1ECCAB8F000E510B /* Tutor.h */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4DCC53901EC4A06C0024C049 /* CbaMentorAssignment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DCC53A81EC4A06D0024C049 /* Build configuration list for PBXNativeTarget "CbaMentorAssignment" */;
+			buildPhases = (
+				4DCC538D1EC4A06C0024C049 /* Sources */,
+				4DCC538E1EC4A06C0024C049 /* Frameworks */,
+				4DCC538F1EC4A06C0024C049 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CbaMentorAssignment;
+			productName = CbaMentorAssignment;
+			productReference = 4DCC53911EC4A06C0024C049 /* CbaMentorAssignment.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4DCC53891EC4A06C0024C049 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Mark Varney";
+				TargetAttributes = {
+					4DCC53901EC4A06C0024C049 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = EPZSE64D7N;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 4DCC538C1EC4A06C0024C049 /* Build configuration list for PBXProject "CbaMentorAssignment" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4DCC53881EC4A06C0024C049;
+			productRefGroup = 4DCC53921EC4A06C0024C049 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4DCC53901EC4A06C0024C049 /* CbaMentorAssignment */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4DCC538F1EC4A06C0024C049 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DF132311EEE488E00ABF4B7 /* Tutors-1km-Maths.json in Resources */,
+				4DF132391EEEADAB00ABF4B7 /* Tutors-10km-Piano.json in Resources */,
+				4DF132331EEE4A2100ABF4B7 /* Tutors-5km-Maths.json in Resources */,
+				4DCC53A41EC4A06D0024C049 /* LaunchScreen.storyboard in Resources */,
+				4DB6C8A01ED68F550066906B /* Tutors-10km-Maths.json in Resources */,
+				4DCC53A11EC4A06D0024C049 /* Assets.xcassets in Resources */,
+				4DF132371EEE5A3400ABF4B7 /* Tutors-25km-Maths.json in Resources */,
+				4DCC539F1EC4A06C0024C049 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4DCC538D1EC4A06C0024C049 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DFD1B811EE839AB00EF2B65 /* CustomButton.m in Sources */,
+				4D147D321ED4630100CC7A08 /* TutorPin.m in Sources */,
+				4DCCC57E1ECCAB82000E510B /* Tutor.m in Sources */,
+				4D147D1E1ED3F6EB00CC7A08 /* TutorTableCell.m in Sources */,
+				4DCC53991EC4A06C0024C049 /* AppDelegate.m in Sources */,
+				4D147D351ED5D67600CC7A08 /* Manager.m in Sources */,
+				4D147D3B1ED6728A00CC7A08 /* Service.m in Sources */,
+				4D147D301ED424CC00CC7A08 /* MapViewController.m in Sources */,
+				4DCCC5781ECB4B37000E510B /* SearchViewController.m in Sources */,
+				4DE4A75A1ECEFCD9001AEB30 /* TutorDetailViewController.m in Sources */,
+				4DCCC57C1ECCA8A7000E510B /* TutorListingViewController.m in Sources */,
+				4DCC53961EC4A06C0024C049 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4DCC539D1EC4A06C0024C049 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4DCC539E1EC4A06C0024C049 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4DCC53A21EC4A06D0024C049 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4DCC53A31EC4A06D0024C049 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4DCC53A61EC4A06D0024C049 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4DCC53A71EC4A06D0024C049 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4DCC53A91EC4A06D0024C049 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = EPZSE64D7N;
+				INFOPLIST_FILE = CbaMentorAssignment/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "au.edu-uts.CbaMentorAssignment1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		4DCC53AA1EC4A06D0024C049 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = EPZSE64D7N;
+				INFOPLIST_FILE = CbaMentorAssignment/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "au.edu-uts.CbaMentorAssignment1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4DCC538C1EC4A06C0024C049 /* Build configuration list for PBXProject "CbaMentorAssignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DCC53A61EC4A06D0024C049 /* Debug */,
+				4DCC53A71EC4A06D0024C049 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DCC53A81EC4A06D0024C049 /* Build configuration list for PBXNativeTarget "CbaMentorAssignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DCC53A91EC4A06D0024C049 /* Debug */,
+				4DCC53AA1EC4A06D0024C049 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4DCC53891EC4A06C0024C049 /* Project object */;
+}
